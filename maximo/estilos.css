@@ -1,0 +1,393 @@
+body {
+    background-color: green;
+}
+.contenedor {
+    position: absolute;
+    background-color: transparent;
+    width: 250px;
+    height: 300px;
+    left: 600px;
+    top: 290px;
+    border: transparent;
+}
+.cuello {
+    position: relative;
+    background-color: rgb(10, 148, 125);
+    width: 15px;
+    height: 65px;
+    border-radius: 0% 0% 50% 50%;
+    bottom: 210px;
+    left: 148px;
+    transform: rotate(-10deg);
+}
+.cara {
+    position: relative;
+    background-color: rgb(10, 148, 125);
+    width: 50px;
+    height: 65px;
+    border-radius: 50%;
+    bottom: 335px;
+    left: 120px;
+    transform: rotate(-5deg);
+}
+.ojo {
+    position: relative;
+    background-color: white;
+    width: 15px;
+    height: 30px;
+    border-radius: 50%;
+    top: 12px;
+    left: 7px;
+}
+.rellenojo {
+    position: relative;
+    background-color: black;
+    width: 10px;
+    height: 16px;
+    border-radius: 50%;
+    top: 14px;
+    left: 2px;
+    transform: rotate(-15deg);
+}
+.rellenojo1 {
+    position: relative;
+    background-color: white;
+    width: 5px;
+    height: 6px;
+    border-radius: 50%;
+    top: 2px;
+    left: 1px;
+    transform: rotate(10deg);
+}
+.pico {
+    position: relative;
+    background-color: rgb(252, 112, 31);
+    width: 100px;
+    height: 45px;
+    border-radius: 0% 80% 0% 0%;
+    bottom: 395px;
+    left: 150px;
+}
+.pico1 {
+    position: relative;
+    background-color: orange;
+    width: 10px;
+    height: 60px;
+    z-index: 2;
+}
+.pico2 {
+    position: relative;
+    background-color: rgb(247, 182, 43);
+    width: 10px;
+    height: 45px;
+    bottom: 60px;
+    left: 10px;
+}
+.pico3 {
+    position: relative;
+    background-color: rgb(231, 41, 41);
+    width: 15px;
+    height: 45px;
+    left: 20px;
+    bottom: 105px;
+}
+.rellenopico {
+    position: relative;
+    background-color: orange;
+    width: 20px;
+    height: 70px;
+    border-radius: 0% 0% 50% 50%;
+    bottom: 127px;
+    left: 30px;
+    transform: rotate(-75deg);
+    z-index: 1;
+}
+.torso {
+    position: relative;
+    background-color: khaki ;
+    width: 110px;
+    height: 130px;
+    border-radius: 50% 50% 10% 10%;
+    left: 91px;
+    bottom: 10px;
+    transform: rotate(15deg);
+    border: 1px solid;
+}
+.rellenotorso1 {
+    position: relative;
+    background-color: white;
+    width: 30px;
+    height: 25px;
+    top: 90px;
+    left: 30px;
+    border-radius: 0% 0% 50% 50%;
+    border: 1px solid;
+}
+.rellenotorso2 {
+    position: relative;
+    background-color: white;
+    width: 25px;
+    height: 20px;
+    top: 60px;
+    left: 83px;
+    border-radius: 0% 0% 0% 50%;
+    border: 1px solid;
+}
+.brazodr {
+    position: relative;
+    background-color: rgb(10, 148, 125);
+    width: 40px;
+    height: 50px;
+    bottom: 415px;
+    left: 204px;
+    z-index: 1;
+    border-radius: 50% 0% 80% 0%;
+    transform: rotate(15deg);
+}
+.manosdr {
+    position: relative;
+    background-color: transparent;
+    width: 76px;
+    height: 50px;
+    bottom: 117px;
+    left: 209px;
+    transform: rotate(-30deg);
+    z-index: 2;
+}
+.mano4 {
+    position: relative;
+    background-color: rgb(10, 148, 125);
+    width: 20px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px black solid;
+}
+.mano5 {
+    position: relative;
+    background-color: rgb(10, 148, 125);
+    width: 20px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid;
+    bottom: 50px;
+    left: 13px;
+}
+.mano6 {
+    position: relative;
+    background-color: rgb(10, 148, 125);
+    width: 20px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid;
+    bottom: 100px;
+    left: 25px;
+}
+.mano7 {
+    position: relative;
+    background-color: rgb(10, 148, 125);
+    width: 18px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid;
+    bottom: 162px;
+    right: 25px;
+    transform: rotate(-50deg);
+}
+.brazoiz {
+    position: relative;
+    background-color: khaki;
+    width: 35px;
+    height: 50px;
+    border-radius: 0% 0% 50% 0%;
+    bottom: 390px;
+    left: 76px;
+    transform: rotate(60deg);
+    border-left: 1px solid;
+    border-right: 1px solid;
+    z-index: 1;
+}
+.manosiz {
+    position: relative;
+    background-color: transparent;
+    width: 76px;
+    height: 50px;
+    bottom: 315px;
+    left: 50px;
+    transform: rotate(25deg);
+    z-index: 2;
+}
+.mano1 {
+    position: relative;
+    background-color: rgb(10, 148, 125);
+    width: 20px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+.mano2 {
+    position: relative;
+    background-color: rgb(10, 148, 125);
+    width: 20px;
+    height: 50px;
+    border-radius: 50%;
+    bottom: 50px;
+    left: 15px;
+    border: 1px solid;
+}
+.mano3 {
+    position: relative;
+    background-color: rgb(10, 148, 125);
+    width: 20px;
+    height: 50px;
+    border-radius: 50%;
+    bottom: 100px;
+    left: 30px;
+    border: 1px solid;
+}
+.cuerpo {
+    position: relative;
+    background-color: rgb(10, 148, 125);
+    width: 100px;
+    height: 45px;
+    border-radius: 0px 0px 50px 50px ;
+    left: 75px;
+    top: 155px;
+    transform: rotate(15deg);
+}
+.sombrero {
+    position: absolute;
+    margin: auto;
+    right: 190px;
+    top: 135px;
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border-radius: 50px;
+    box-shadow: 15px 5px 0px 0px khaki;
+    transform: rotate(20deg);
+    z-index: 2;
+}
+.rellenosom {
+    position: relative;
+    background-color: khaki;
+    width: 60px;
+    height: 40px;
+    border-radius: 50%;
+    left: 20px;
+    top: 19px;
+    transform: rotate(15deg);
+    z-index: 2;
+}
+.piernaIza {
+    position: relative;
+    background-color: orange;
+    left: 75px;
+    top: 210px;
+    width: 10px;
+    height: 35px;
+    border-radius: 0px 0px 0px 50px;
+    transform: rotate(58deg);
+    border-left: 1px solid;
+}
+.relleno1iz {
+    position: relative;
+    background-color: orange;
+    width: 10px;
+    height: 35px;
+    left: 12px;
+    top: 12px;
+    border-radius: 50px 0px 50px 0px;
+    transform: rotate(-93deg);
+    border-left: 1px solid;
+}
+.rellenoiz2 {
+    position: relative;
+    background-color: orange;
+    width: 50px;
+    height: 25px;
+    right: 0px;
+    top: 0px;
+    border-radius: 50%;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    transform: rotate(90deg);
+}
+.piernaDra {
+    position: relative;
+    background-color: orange;
+    left: 49px;
+    bottom: 150px;
+    width: 10px;
+    height: 35px;
+    border-radius: 50px 0px 0px 0px;
+    border-left: 1px solid;
+    transform: rotate(62deg);
+}
+.rellenodr1 {
+    position: relative;
+    background-color: orange;
+    width: 10px;
+    height: 35px;
+    left: 12px;
+    bottom: 13px;
+    border-radius: 0px 50px 0px 50px;
+    border-right: 1px solid;
+    transform: rotate(-93deg);
+}
+.rellenodr2 {
+    position: relative;
+    background-color: orange;
+    width: 50px;
+    height: 25px;
+    right: 0px;
+    bottom: 64px;
+    border-radius: 50%;
+    transform: rotate(90deg);
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+.cola {
+    position: relative;
+    background-color: transparent;
+    width: 76px;
+    height: 50px;
+    bottom: 420px;
+    left: -30px;
+    transform: rotate(45deg);
+}
+.cola1 {
+    position: relative;
+    background-color: rgb(252, 72, 17);
+    width: 15px;
+    height: 110px;
+    left: 58px;
+    bottom: 35px;
+    border-radius: 50%;
+    border: 1px solid;
+    transform: rotate(17deg);
+    z-index: 1;
+}
+.cola2 {
+    position: relative;
+    background-color: rgba(248, 125, 201, 0.979);
+    width: 15px;
+    height: 130px;
+    border-radius: 50%;
+    bottom: 160px;
+    left: 35px;
+    border: 1px solid;
+    transform: rotate(35deg);
+}
+.cola3 {
+    position: relative;
+    background-color: orange;
+    width: 15px;
+    height: 95px;
+    border-radius: 50%;
+    bottom: 240px;
+    left: 27px;
+    border: 1px solid;
+    transform: rotate(30deg)
+}
